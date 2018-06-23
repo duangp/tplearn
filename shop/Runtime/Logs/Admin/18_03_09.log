@@ -1,0 +1,37 @@
+[ 2018-03-09T15:50:34+08:00 ] ::1 /tplearn/shop/index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032002s ]
+
+[ 2018-03-09T15:50:46+08:00 ] ::1 /tplearn/shop/index.php/Admin/Manager/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-09T16:09:49+08:00 ] ::1 /tplearn/shop/index.php/Admin/Goods/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2018-03-09T16:10:08+08:00 ] ::1 /tplearn/shop/index.php/Admin/Goods/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-09T16:10:13+08:00 ] ::1 /tplearn/shop/index.php/Admin/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-09T16:10:19+08:00 ] ::1 /tplearn/shop/index.php/Admin/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:showlist
+
+[ 2018-03-09T16:10:28+08:00 ] ::1 /tplearn/shop/index.php/Admin/Goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

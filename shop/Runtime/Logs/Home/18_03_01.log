@@ -1,0 +1,21 @@
+[ 2018-03-01T14:43:19+08:00 ] ::1 /tplearn/shop/index.php?m=Home&c=IndexController&a=Index
+ERR: 无法加载控制器:IndexController
+
+[ 2018-03-01T16:27:38+08:00 ] ::1 /tplearn/shop/index.php/Home/New/invite
+ERR: 无法加载控制器:New
+
+[ 2018-03-01T16:30:03+08:00 ] ::1 /tplearn/shop/index.php/Home/New/invite
+ERR: 无法加载控制器:New
+
+[ 2018-03-01T16:30:30+08:00 ] ::1 /tplearn/shop/index.php/Home/New/invite
+ERR: 无法加载控制器:New
+
+[ 2018-03-01T16:30:44+08:00 ] ::1 /tplearn/shop/index.php/Home/New/invite
+ERR: 无法加载控制器:New
+
+[ 2018-03-01T16:35:59+08:00 ] ::1 /tplearn/shop/index.php/Home/New/In
+ERR: 无法加载控制器:New
+
+[ 2018-03-01T16:36:09+08:00 ] ::1 /tplearn/shop/index.php/Home/New/In.html
+ERR: 无法加载控制器:New
+
