@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2018-06-23 22:33:48
+<?php /* Smarty version Smarty-3.1.6, created on 2018-07-06 17:47:31
          compiled from "D:/phpStudy/WWW/tplearn/shop/Admin/View\Goods\goodslist.html" */ ?>
 <?php /*%%SmartyHeaderCode:255115b25d0238002b8-27967212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c09d9e281d5e26aab457011090902a9f95555052' => 
     array (
       0 => 'D:/phpStudy/WWW/tplearn/shop/Admin/View\\Goods\\goodslist.html',
-      1 => 1529764425,
+      1 => 1530870449,
       2 => 'file',
     ),
   ),
@@ -59,6 +59,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </form>
             </span>
 </div>
+<?php echo @__ROOT__;?>
+
 <div style="font-size: 13px; margin: 10px 5px;">
     <table class="table_a" border="1" width="100%">
         <tbody><tr style="font-weight: bold;">
@@ -87,16 +89,20 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 </a></td>
                 <td><?php echo $_smarty_tpl->tpl_vars['v']->value['g_no'];?>
 </td>
-                <td>3888</td>
-                <td><img src="<?php echo @IMG_URL;?>
-/20121018-174034-58977.jpg" height="60" width="60"></td>
-                <td><img src="<?php echo @IMG_URL;?>
-/20121018-174034-97960.jpg" height="40" width="40"></td>
+                <td><?php echo $_smarty_tpl->tpl_vars['v']->value['cost_price'];?>
+</td>
+                <td><img src="<?php echo @__ROOT__;?>
+<?php echo $_smarty_tpl->tpl_vars['v']->value['images'];?>
+" height="60" width="60"></td>
+                <td><img src="<?php echo @__ROOT__;?>
+<?php echo $_smarty_tpl->tpl_vars['v']->value['tiny_images'];?>
+" height="40" width="40"></td>
                 <td>苹果apple</td>
                 <td><?php echo $_smarty_tpl->tpl_vars['v']->value['create_date'];?>
 </td>
                 <td><a href="<?php echo @__CONTROLLER__;?>
-/update">修改</a></td>
+/update/g_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['g_id'];?>
+">修改</a></td>
                 <td><a href="javascript:;" onclick="delete_product(1)">删除</a></td>
             </tr>
         <?php } ?>

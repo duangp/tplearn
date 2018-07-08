@@ -1,0 +1,6 @@
+[ 2018-06-24T15:33:46+08:00 ] ::1 /tplearn/shop/index.php/Admin/Goods/update/
+ERR: 参数错误或者未定义:g_id
+
+[ 2018-06-24T15:33:54+08:00 ] ::1 /tplearn/shop/index.php/Admin/Goods/update/
+ERR: 参数错误或者未定义:g_id
+

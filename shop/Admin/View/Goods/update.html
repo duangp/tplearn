@@ -23,12 +23,12 @@
             <table border="1" width="100%" class="table_a">
                 <tr>
                     <td>商品名称</td>
-                    <td><input type="text" name="f_goods_name" value="KD877" /></td>
+                    <td><input type="text" name="name" value='{$info.name}' /></td>
                 </tr>
                 <tr>
                     <td>商品分类</td>
                     <td>
-                        <select name="f_goods_category_id">
+                        <select name="st_id">
                             <option>请选择</option>
                             <option>家用电器</option>
                             <option>手机数码</option>
@@ -40,7 +40,7 @@
                 <tr>
                     <td>商品品牌</td>
                     <td>
-                        <select name="f_goods_brand_id">
+                        <select name="brand">
                             <option>请选择</option>
                             <option>苹果</option>
                             <option>诺基亚</option>
@@ -51,16 +51,16 @@
                 </tr>
                 <tr>
                     <td>商品价格</td>
-                    <td><input type="text" name="f_goods_price" value="1239.99" /></td>
+                    <td><input type="text" name="price" value="{$info.price}" /></td>
                 </tr>
                 <tr>
                     <td>商品图片</td>
-                    <td><input type="file" name="f_goods_image" value="./img/2013-12-33.jpg" /></td>
+                    <td><input type="file" name="image" value="./img/2013-12-33.jpg" /></td>
                 </tr>
                 <tr>
                     <td>商品详细描述</td>
                     <td>
-                        <textarea name="f_goods_introduce">卓越的纤薄设计，却依然为更大的显示屏和更快的芯片预留了空间。超快无线网络连接也不会牺牲电池使用时间。全新耳机带来绝佳音效和非凡贴合的舒适度。如此众多的精彩功能融入这款 iPhone，如此，你才可以享受它的精彩更多。</textarea>
+                        <textarea name="describe">{$info[describe]}</textarea>
                     </td>
                 </tr>
                 

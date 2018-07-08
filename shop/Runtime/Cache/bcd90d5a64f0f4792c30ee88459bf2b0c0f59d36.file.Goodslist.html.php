@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2018-06-23 22:36:35
+<?php /* Smarty version Smarty-3.1.6, created on 2018-06-24 14:17:50
          compiled from "D:/phpStudy/WWW/tplearn/shop/Admin/View\Goods\Goodslist.html" */ ?>
 <?php /*%%SmartyHeaderCode:53715b29c9b0eeca23-12489438%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bcd90d5a64f0f4792c30ee88459bf2b0c0f59d36' => 
     array (
       0 => 'D:/phpStudy/WWW/tplearn/shop/Admin/View\\Goods\\Goodslist.html',
-      1 => 1529764425,
+      1 => 1529769166,
       2 => 'file',
     ),
   ),

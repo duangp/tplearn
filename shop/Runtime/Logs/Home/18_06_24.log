@@ -1,0 +1,84 @@
+[ 2018-06-24T14:17:12+08:00 ] ::1 /tplearn/shop/
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\Index\index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2018-06-24T14:17:37+08:00 ] ::1 /tplearn/shop/index.php/amdin
+ERR: 无法加载控制器:Amdin
+
+[ 2018-06-24T16:41:23+08:00 ] ::1 /tplearn/shop/index.php/User/
+ERR: 非法操作:index
+
+[ 2018-06-24T16:43:25+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20hCSS_URL?%3E/style.css
+ERR: 非法操作:
+
+[ 2018-06-24T16:43:26+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/biao7.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:43:26+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/sousuo.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:43:26+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/yongda_logo.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:43:26+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/logo.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:43:27+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/biao3.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:43:27+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/biao6.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:43:27+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/di.jpg
+ERR: 非法操作:
+
+[ 2018-06-24T16:43:27+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/ecmoban_link.jpg
+ERR: 非法操作:
+
+[ 2018-06-24T16:44:48+08:00 ] ::1 /tplearn/shop/index.php/User/register
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\User\register.html"  on line 11 "&lt;link href=&quot;{smarty.const.hCSS_URL}/style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;"  - Unexpected ".", expected one of: "}" , " "
+
+[ 2018-06-24T16:45:09+08:00 ] ::1 /tplearn/shop/index.php/User/register
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\User\register.html"  on line 11 "&lt;link href=&quot;{hCSS_URL}/style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;" unknown tag "hCSS_URL"
+
+[ 2018-06-24T16:45:34+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/biao3.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:45:34+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/biao6.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:45:34+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/biao7.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:45:34+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/logo.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:45:34+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/yongda_logo.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:45:34+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/sousuo.gif
+ERR: 非法操作:
+
+[ 2018-06-24T16:45:35+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/di.jpg
+ERR: 非法操作:
+
+[ 2018-06-24T16:45:35+08:00 ] ::1 /tplearn/shop/index.php/User/%3C?php%20echo%20IMG_URL?%3E/ecmoban_link.jpg
+ERR: 非法操作:
+
+[ 2018-06-24T16:48:11+08:00 ] ::1 /tplearn/shop/index.php/User/register
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\User\register.html"  on line 16 "&lt;a href=&quot;#&quot; name=&quot;top&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;{smarty.const.IMG_URL}/logo.gif&quot;&gt;&lt;/a&gt;"  - Unexpected ".", expected one of: "}" , " "
+
+[ 2018-06-24T16:54:22+08:00 ] ::1 /tplearn/shop/index.php/User/register
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\User\register.html"  on line 16 "&lt;a href=&quot;#&quot; name=&quot;top&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;{smarty.const.hIMG_URL}/logo.gif&quot;&gt;&lt;/a&gt;"  - Unexpected ".", expected one of: "}" , " "
+
+[ 2018-06-24T16:54:24+08:00 ] ::1 /tplearn/shop/index.php/User/register
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\User\register.html"  on line 16 "&lt;a href=&quot;#&quot; name=&quot;top&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;{smarty.const.hIMG_URL}/logo.gif&quot;&gt;&lt;/a&gt;"  - Unexpected ".", expected one of: "}" , " "
+
+[ 2018-06-24T16:56:41+08:00 ] ::1 /tplearn/shop/index.php/User/register
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\User\register.html"  on line 16 "&lt;a href=&quot;#&quot; name=&quot;top&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;{hIMG_URL}/logo.gif&quot;&gt;&lt;/a&gt;" unknown tag "hIMG_URL"
+
+[ 2018-06-24T16:58:23+08:00 ] ::1 /tplearn/shop/index.php/User/register
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\User\register.html"  on line 16 "&lt;a href=&quot;#&quot; name=&quot;top&quot;&gt;&lt;img class=&quot;logo&quot; src=&quot;{smarty.hIMG_URL}/logo.gif&quot;&gt;&lt;/a&gt;"  - Unexpected ".", expected one of: "}" , " "
+
+[ 2018-06-24T16:58:42+08:00 ] ::1 /tplearn/shop/index.php/User/register
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\User\register.html"  on line 58 "&lt;input name=&quot;imageField&quot; value=&quot; &quot; class=&quot;go&quot; style=&quot;cursor: pointer; background: url('{smarty.const.hIMG_URL}/sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;&quot; type=&quot;submit&quot; /&gt;"  - Unexpected ".", expected one of: "}" , " "
+

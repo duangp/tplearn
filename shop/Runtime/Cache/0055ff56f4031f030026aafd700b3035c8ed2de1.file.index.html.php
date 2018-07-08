@@ -1,4 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php /* Smarty version Smarty-3.1.6, created on 2018-06-25 16:15:14
+         compiled from "D:/phpStudy/WWW/tplearn/shop/Home/View\Index\index.html" */ ?>
+<?php /*%%SmartyHeaderCode:263105b30a492a356d4-62160568%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '0055ff56f4031f030026aafd700b3035c8ed2de1' => 
+    array (
+      0 => 'D:/phpStudy/WWW/tplearn/shop/Home/View\\Index\\index.html',
+      1 => 1529914514,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '263105b30a492a356d4-62160568',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5b30a492da84a',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5b30a492da84a')) {function content_5b30a492da84a($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta name="Generator" content="YONGDA v1.0" />
@@ -8,12 +29,14 @@
         
         <title>YONGDA商城 - Powered by YongDa</title>
         
-        <link href="{$smarty.const.hCSS_URL}/style.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo @hCSS_URL;?>
+/style.css" rel="stylesheet" type="text/css" />
         
     </head>
     <body class="index_body">
         <div class="block clearfix" style="position: relative; height: 98px;">
-            <a href="#" name="top"><img class="logo" src="{$smarty.const.hIMG_URL}/logo.gif"></a>
+            <a href="#" name="top"><img class="logo" src="<?php echo @hIMG_URL;?>
+/logo.gif"></a>
 
             <div id="topNav" class="clearfix">
                 <div style="float: left;"> 
@@ -50,21 +73,25 @@
 
             <form id="searchForm" method="get" action="#">
                 <input name="keywords" id="keyword" type="text" />
-                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('{$smarty.const.hIMG_URL}/sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('<?php echo @hIMG_URL;?>
+/sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
 
             </form>
         </div>
         <div class="blank5"></div>
         <div class="header_bg_b">
             <div class="f_l" style="padding-left: 10px;">
-                <img src="{$smarty.const.hIMG_URL}/biao6.gif" />
+                <img src="<?php echo @hIMG_URL;?>
+/biao6.gif" />
                     北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
             </div>
             <div class="f_r" style="padding-right: 10px;">
-                <img style="vertical-align: middle;" src="{$smarty.const.hIMG_URL}/biao3.gif">
+                <img style="vertical-align: middle;" src="<?php echo @hIMG_URL;?>
+/biao3.gif">
                     <span class="cart" id="ECS_CARTINFO">
                         <a href="#" title="查看购物车">您的购物车中有 0 件商品，总计金额 ￥0.00元。</a></span>
-                    <a href="#"><img style="vertical-align: middle;" src="{$smarty.const.hIMG_URL}/biao7.gif"></a>
+                    <a href="#"><img style="vertical-align: middle;" src="<?php echo @hIMG_URL;?>
+/biao7.gif"></a>
 
             </div>
         </div>
@@ -117,9 +144,11 @@
                     <div class="box_1">
                         <div class="top10List clearfix">
                             <ul class="clearfix">
-                                <img src="{$smarty.const.hIMG_URL}/top_1.gif" class="iteration">
+                                <img src="<?php echo @hIMG_URL;?>
+/top_1.gif" class="iteration">
                                     <li class="topimg">
-                                        <a href="#"><img src="{$smarty.const.hIMG_URL}/3_thumb_G_1241422082679.jpg" alt="" class="samllimg"></a>
+                                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/3_thumb_G_1241422082679.jpg" alt="" class="samllimg"></a>
                                     </li>
 
                                     <li class="iteration1">
@@ -128,9 +157,11 @@
                                     </li>
                             </ul>
                             <ul class="clearfix">
-                                <img src="{$smarty.const.hIMG_URL}/top_2.gif" class="iteration">
+                                <img src="<?php echo @hIMG_URL;?>
+/top_2.gif" class="iteration">
                                     <li class="topimg">
-                                        <a href="#"><img src="{$smarty.const.hIMG_URL}/24_thumb_G_1241971981429.jpg" alt="" class="samllimg"></a>
+                                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/24_thumb_G_1241971981429.jpg" alt="" class="samllimg"></a>
                                     </li>
 
                                     <li class="iteration1">
@@ -139,9 +170,11 @@
                                     </li>
                             </ul>
                             <ul class="clearfix">
-                                <img src="{$smarty.const.hIMG_URL}/top_3.gif" class="iteration">
+                                <img src="<?php echo @hIMG_URL;?>
+/top_3.gif" class="iteration">
                                     <li class="topimg">
-                                        <a href="#"><img src="{$smarty.const.hIMG_URL}12_thumb_G_1241965978410.jpg" alt="" class="samllimg"></a>
+                                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+12_thumb_G_1241965978410.jpg" alt="" class="samllimg"></a>
                                     </li>
 
                                     <li class="iteration1">
@@ -150,7 +183,8 @@
                                     </li>
                             </ul>
                             <ul class="clearfix">
-                                <img src="{$smarty.const.hIMG_URL}/top_4.gif" class="iteration">
+                                <img src="<?php echo @hIMG_URL;?>
+/top_4.gif" class="iteration">
 
                                     <li>
                                         <a href="#" title="">诺基亚E66</a><br />
@@ -158,7 +192,8 @@
                                     </li>
                             </ul>
                             <ul class="clearfix">
-                                <img src="{$smarty.const.hIMG_URL}/top_5.gif" class="iteration">
+                                <img src="<?php echo @hIMG_URL;?>
+/top_5.gif" class="iteration">
 
                                     <li>
                                         <a href="#" title="">多普达Touc...</a><br />
@@ -166,7 +201,8 @@
                                     </li>
                             </ul>
                             <ul class="clearfix">
-                                <img src="{$smarty.const.hIMG_URL}/top_6.gif" class="iteration">
+                                <img src="<?php echo @hIMG_URL;?>
+/top_6.gif" class="iteration">
 
                                     <li>
                                         <a href="#" title="">三星BC01</a><br />
@@ -174,7 +210,8 @@
                                     </li>
                             </ul>
                             <ul class="clearfix">
-                                <img src="{$smarty.const.hIMG_URL}/top_7.gif" class="iteration">
+                                <img src="<?php echo @hIMG_URL;?>
+/top_7.gif" class="iteration">
 
                                     <li>
                                         <a href="#" title="">飞利浦9@9v</a><br />
@@ -187,9 +224,12 @@
                 <div class="blank5"></div><div class="box">  <h3><span>品牌专区</span></h3>
                     <div class="box_1">
                         <div class=" brands clearfix">
-                            <a href="#"><img src="{$smarty.const.hIMG_URL}/1240803062307572427.gif" alt="诺基亚 (7)"></a>
-                            <a href="#"><img src="{$smarty.const.hIMG_URL}/1240802922410634065.gif" alt="摩托罗拉 (1)"></a>
-                            <a href="#"><img src="{$smarty.const.hIMG_URL}/1240803144788047486.gif" alt="多普达 (1)"></a>
+                            <a href="#"><img src="<?php echo @hIMG_URL;?>
+/1240803062307572427.gif" alt="诺基亚 (7)"></a>
+                            <a href="#"><img src="<?php echo @hIMG_URL;?>
+/1240802922410634065.gif" alt="摩托罗拉 (1)"></a>
+                            <a href="#"><img src="<?php echo @hIMG_URL;?>
+/1240803144788047486.gif" alt="多普达 (1)"></a>
                         </div>
                     </div>
                 </div>
@@ -198,7 +238,8 @@
             <div class="AreaM">
                 <div class="box clearfix">
                     <div id="focus">
-                        <img src="{$smarty.const.hIMG_URL}/111.jpg" width="515" height="160" alt="" />
+                        <img src="<?php echo @hIMG_URL;?>
+/111.jpg" width="515" height="160" alt="" />
                     </div>       
                 </div>
                 <div class="blank"></div>
@@ -215,7 +256,8 @@
                 <div id="show_hot_area" class="clearfix">
                     <div class="goodsItem">
 
-                        <a href="#"><img src="{$smarty.const.hIMG_URL}/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg"></a><br />
+                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg"></a><br />
                         <p class="f1"><a href="#" title="诺基亚E66">诺基亚E66</a></p>
                         <font class="market">￥2758元</font><br />
                         <font class="f1">
@@ -223,7 +265,8 @@
                     </div>
                     <div class="goodsItem">
 
-                        <a href="#"><img src="{$smarty.const.hIMG_URL}/1_thumb_G_1240902890710.jpg" alt="KD876" class="goodsimg"></a><br />
+                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/1_thumb_G_1240902890710.jpg" alt="KD876" class="goodsimg"></a><br />
                         <p class="f1"><a href="#" title="KD876">KD876</a></p>
                         <font class="market">￥1666元</font><br />
                         <font class="f1">
@@ -231,7 +274,8 @@
                     </div>
                     <div class="goodsItem">
 
-                        <a href="#"><img src="{$smarty.const.hIMG_URL}/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg"></a><br />
+                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg"></a><br />
                         <p class="f1"><a href="#" title="飞利浦9@9v">飞利浦9@9v</a></p>
                         <font class="market">￥479元</font><br />
                         <font class="f1">
@@ -253,7 +297,8 @@
                 <div id="show_best_area" class="clearfix">
                     <div class="goodsItem">
 
-                        <a href="#"><img src="{$smarty.const.hIMG_URL}/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg"></a><br />
+                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg"></a><br />
                         <p class="f1"><a href="#" title="诺基亚E66">诺基亚E66</a></p>
 
 
@@ -264,7 +309,8 @@
                     </div>
                     <div class="goodsItem">
 
-                        <a href="#"><img src="{$smarty.const.hIMG_URL}/1_thumb_G_1240902890710.jpg" alt="KD876" class="goodsimg"></a><br />
+                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/1_thumb_G_1240902890710.jpg" alt="KD876" class="goodsimg"></a><br />
                         <p class="f1"><a href="#" title="KD876">KD876</a></p>
 
 
@@ -275,7 +321,8 @@
                     </div>
                     <div class="goodsItem">
 
-                        <a href="#"><img src="{$smarty.const.hIMG_URL}/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg"></a><br />
+                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg"></a><br />
                         <p class="f1"><a href="#" title="飞利浦9@9v">飞利浦9@9v</a></p>
 
 
@@ -300,7 +347,8 @@
                 <div id="show_new_area" class="clearfix">
                     <div class="goodsItem">
 
-                        <a href="#"><img src="{$smarty.const.hIMG_URL}/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg"></a><br />
+                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg"></a><br />
                         <p class="f1"><a href="#" title="诺基亚E66">诺基亚E66</a></p>
                         <font class="market">￥2758元</font><br />
                         <font class="f1">
@@ -308,7 +356,8 @@
                     </div>
                     <div class="goodsItem">
 
-                        <a href="#"><img src="{$smarty.const.hIMG_URL}/1_thumb_G_1240902890710.jpg" alt="KD876" class="goodsimg"></a><br />
+                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/1_thumb_G_1240902890710.jpg" alt="KD876" class="goodsimg"></a><br />
                         <p class="f1"><a href="#" title="KD876">KD876</a></p>
                         <font class="market">￥1666元</font><br />
                         <font class="f1">
@@ -316,7 +365,8 @@
                     </div>
                     <div class="goodsItem">
 
-                        <a href="#"><img src="{$smarty.const.hIMG_URL}/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg"></a><br />
+                        <a href="#"><img src="<?php echo @hIMG_URL;?>
+/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg"></a><br />
                         <p class="f1"><a href="#" title="飞利浦9@9v">飞利浦9@9v</a></p>
                         <font class="market">￥479元</font><br />
                         <font class="f1">
@@ -422,7 +472,8 @@
 
         <div class="blank"></div>
         <div class="block">
-            <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="{$smarty.const.hIMG_URL}/di.jpg"></a>
+            <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="<?php echo @hIMG_URL;?>
+/di.jpg"></a>
             <div class="blank"></div>
         </div>
         <div class="block">
@@ -473,10 +524,12 @@
         <div id="bottomNav" class="box block">
             <div class="box_1">
                 <div class="links clearfix"> 
-                    <a href="#" target="_blank" title="YONGDA商城"><img src="{$smarty.const.hIMG_URL}/ecmoban_link.jpg" alt="YONGDA商城" border="0"></a>
+                    <a href="#" target="_blank" title="YONGDA商城"><img src="<?php echo @hIMG_URL;?>
+/ecmoban_link.jpg" alt="YONGDA商城" border="0"></a>
 
                     <a href="#" target="_blank" title="YONGDA 网上商店管理系统">
-                        <img src="{$smarty.const.hIMG_URL}/yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
+                        <img src="<?php echo @hIMG_URL;?>
+/yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
                     </a>
 
 
@@ -514,4 +567,4 @@
             </div>
         </div>
     </body>
-</html>
+</html><?php }} ?>

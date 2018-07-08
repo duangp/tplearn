@@ -31,6 +31,7 @@
                 </form>
             </span>
 </div>
+{$smarty.const.__ROOT__}
 <div style="font-size: 13px; margin: 10px 5px;">
     <table class="table_a" border="1" width="100%">
         <tbody><tr style="font-weight: bold;">
@@ -49,12 +50,12 @@
                 <td>{$v.g_id}</td>
                 <td><a href="#">{$v.name}</a></td>
                 <td>{$v.g_no}</td>
-                <td>3888</td>
-                <td><img src="{$smarty.const.IMG_URL}/20121018-174034-58977.jpg" height="60" width="60"></td>
-                <td><img src="{$smarty.const.IMG_URL}/20121018-174034-97960.jpg" height="40" width="40"></td>
+                <td>{$v.cost_price}</td>
+                <td><img src="{$smarty.const.__ROOT__}{$v.images}" height="60" width="60"></td>
+                <td><img src="{$smarty.const.__ROOT__}{$v.tiny_images}" height="40" width="40"></td>
                 <td>苹果apple</td>
                 <td>{$v.create_date}</td>
-                <td><a href="{$smarty.const.__CONTROLLER__}/update">修改</a></td>
+                <td><a href="{$smarty.const.__CONTROLLER__}/update/g_id/{$v.g_id}">修改</a></td>
                 <td><a href="javascript:;" onclick="delete_product(1)">删除</a></td>
             </tr>
         {/foreach}

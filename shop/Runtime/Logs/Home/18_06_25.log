@@ -1,0 +1,15 @@
+[ 2018-06-25T16:12:07+08:00 ] ::1 /tplearn/shop/index.php/home
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\Index\index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2018-06-25T16:13:47+08:00 ] ::1 /tplearn/shop/index.php/home
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\Index\index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2018-06-25T16:13:49+08:00 ] ::1 /tplearn/shop/index.php/home
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\Index\index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2018-06-25T16:14:07+08:00 ] ::1 /tplearn/shop/index.php/home
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\Index\index.html"  on line 405 "/*.boxCenterList form{display:inline;}*/"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2018-06-25T16:14:54+08:00 ] ::1 /tplearn/shop/index.php/home
+ERR: Syntax Error in template "D:/phpStudy/WWW/tplearn/shop/Home/View\Index\index.html"  on line 405 ".boxCenterList form{display: inline; }"  - Unexpected ": ", expected one of: "}" , " "
+
